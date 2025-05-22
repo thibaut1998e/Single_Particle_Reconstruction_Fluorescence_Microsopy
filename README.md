@@ -2,9 +2,11 @@
 
 # 🧬 README
 
+This repository contains the code developed during my PhD [Single Particle Reconstruction in Fluorescence Microsopy](https://publication-theses.unistra.fr/public/theses_doctorat/2024/ELOY_Thibaut_2024_ED269.pdf). This readme file briefly summarizes the subject of my PhD. If you want to use the code, please refer to the file *user_guide.pdf*. 
+
 ## 📚 Context
 
-"This repository contains the code developed during my PhD, which focuses on image processing techniques applied to structural biology—a field dedicated to understanding the three-dimensional (3D) structures of proteins and macromolecular assemblies. These assemblies are stable 3D complexes formed by multiple interacting proteins.
+My thesis is set in the context of structural biology, a discipline that studies the three-dimensional structure of proteins and macromolecular assemblies. These assemblies are energetically stable 3D structures composed of multiple proteins
 
 In recent years, **fluorescence microscopy** has emerged as a promising technique in structural biology. This imaging modality is a technique that uses light to excite fluorescent molecules in a sample, causing them to emit light of a different wavelength that can be detected to visualize structures. The field has seen major advancements thanks to the development of **super-resolution techniques** such as STED (Stimulated Emission Depletion), SIM (Structured Illumination Microscopy), and **expansion microscopy**, which physically enlarges samples to improve resolution.
 
@@ -37,6 +39,6 @@ The proposed reconstruction method consists of three main steps:
 
 Reconstruction from anisotropic views can be classified as:
 
-- **Homogeneous Reconstruction**: Assumes all views originate from a single, fixed 3D structure. This was the focus of **Chapter 3** of the thesis.
+- **Homogeneous Reconstruction**: Assumes all views originate from a single, fixed 3D structure. This was the focus of **Chapter 3** of the thesis. The developped method was integrated in the software [Scipion](https://scipion.i2pc.es/), a widely used softawre for reconstruction in cryo-ME. 
 
 - **Heterogeneous Reconstruction**: Recognizes that the biological particle may exist in multiple conformational states (structural heterogeneity). In this case, the goal is to reconstruct multiple volumes and to assign each view to the corresponding conformation. This extension is covered in **Chapter 4** of the thesis.
