@@ -19,7 +19,7 @@ These limitations are intrinsic to the acquisition process and are difficult to 
 
 The figure bellow shows a 3D dual-channel view of a centriole, represented using three orthogonal cross-sectional views. The resolution in the XY plane is four times better than in the YZ and XZ planes.
 
-![gg](resolution anistropy.png)
+![gg](resolution_anistropy.png)
 
 ## 💡 Proposed Solution
 
