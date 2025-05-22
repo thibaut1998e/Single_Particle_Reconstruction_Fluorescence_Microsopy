@@ -15,7 +15,11 @@ Despite these advances, two major limitations hinder the use of fluorescence mic
 1. **Anisotropic resolution**: The resolution is not uniform across all directions—typically lower along the optical axis (depth) of the microscope.
 2. **Sparse labeling**: Fluorescent markers (fluorophores) used to tag proteins often label only part of the structure, leading to incomplete spatial information.
 
-These limitations are intrinsic to the acquisition process and are difficult to overcome with physical improvements alone.
+These limitations are intrinsic to the acquisition process and are difficult to overcome with physical improvements alone. 
+
+The figure bellow shows a 3D dual-channel view of a centriole, represented using three orthogonal cross-sectional views. The resolution in the XY plane is four times better than in the YZ and XZ planes.
+
+![gg](resolution anistropy.png)
 
 ## 💡 Proposed Solution
 
