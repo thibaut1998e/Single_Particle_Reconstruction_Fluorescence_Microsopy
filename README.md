@@ -37,6 +37,8 @@ The proposed reconstruction method consists of three main steps:
 
 3. **🎯 Refinement**: Using the ab-initio model as initialization, a refinement procedure is applied to obtain a more accurate estimate of both the 3D volume and the poses.
 
+![tt](recons_process.png)
+
 ## 🧩 Homogeneous vs. Heterogeneous Reconstruction
 
 Reconstruction from anisotropic views can be classified as:
