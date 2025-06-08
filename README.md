@@ -1,6 +1,6 @@
 # Single Particle Reconstruction in Fluorescence Microsopy
 
-This repository contains the code developed during my PhD [Single Particle Reconstruction in Fluorescence Microsopy](https://publication-theses.unistra.fr/public/theses_doctorat/2024/ELOY_Thibaut_2024_ED269.pdf). This readme file briefly summarizes the subject of my PhD. If you want to use the code, please refer to the file *user_guide.pdf*. 
+This repository contains the code developed during my PhD [Single Particle Reconstruction in Fluorescence Microsopy](https://publication-theses.unistra.fr/public/theses_doctorat/2024/ELOY_Thibaut_2024_ED269.pdf). This readme file briefly summarizes the subject of my PhD. 
 
 ## 📚 Context
 
