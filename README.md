@@ -46,3 +46,15 @@ Reconstruction from anisotropic views can be classified as:
 - **Homogeneous Reconstruction**: Assumes all views originate from a single, fixed 3D structure. This was the focus of **Chapter 3** of the thesis. The developped method was integrated in the software [Scipion](https://scipion.i2pc.es/), a widely used softawre for reconstruction in cryo-ME. 
 
 - **Heterogeneous Reconstruction**: Recognizes that the biological particle may exist in multiple conformational states (structural heterogeneity). In this case, the goal is to reconstruct multiple volumes and to assign each view to the corresponding conformation. This extension is covered in **Chapter 4** of the thesis.
+
+## 🧪 Setting the virtual environment 
+
+Install anaconda (follow their instructions)
+
+Create the virtual environment with all dependencies with command line : conda env create -f single_particle_reconstruction.yml
+
+You can then associate your virtual environment to your IDE  (in pycharm : file>settings>Project>Python Interpreter then click add interpreter. Tick Existing interpreter, brows /yourhome/anaconda3/envs/single_particle_reconstruction/bin/python3
+
+## 📄 General overview of the code
+
+For an overview of the code, you can check the two pdf files : documentation_reconstrution_homogène.pdf for the homogeneous reconstruction and documentation_reconstrution_hétérogène.pdf for the heterogeneous reconstruction. 
