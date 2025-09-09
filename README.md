@@ -31,11 +31,11 @@ By fusing complementary information from each view, the method aims to generate 
 
 The proposed reconstruction method consists of three main steps:
 
-1. **🔍 Detection**: Starting from images containing many randomly oriented particles, the method detects the 3D coordinates of image patches (views) corresponding to individual particles.
+1. ** Detection**: Starting from images containing many randomly oriented particles, the method detects the 3D coordinates of image patches (views) corresponding to individual particles.
 
-2. **🧪 Ab-initio Reconstruction**: This step jointly estimates the 3D volume and the orientations (poses) of the views. It starts from a random initialization, requiring no prior knowledge about the structure or the poses. This forms a **blind inverse problem**, aiming to infer the hidden structure that produced the observed views.
+2. ** Ab-initio Reconstruction**: This step jointly estimates the 3D volume and the orientations (poses) of the views. It starts from a random initialization, requiring no prior knowledge about the structure or the poses. This forms a **blind inverse problem**, aiming to infer the hidden structure that produced the observed views.
 
-3. **🎯 Refinement**: Using the ab-initio model as initialization, a refinement procedure is applied to obtain a more accurate estimate of both the 3D volume and the poses.
+3. ** Refinement**: Using the ab-initio model as initialization, a refinement procedure is applied to obtain a more accurate estimate of both the 3D volume and the poses.
 
 ![tt](recons_process.png)
 
